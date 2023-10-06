@@ -1,0 +1,32 @@
+// 클래스 외부에 멤버 함수를 정의할 때
+
+#include <iostream>
+
+using namespace std;
+
+template<class T>
+class Box {
+    T data;
+    public :
+    Box () {}
+    void set(T value) { data = value;}
+    T get() { return data;}
+};
+
+클래스 외부에 멤버 함수를 정의할 때, 위의 주석된 부분은 아래와 같다.
+
+template<class T>
+class Box {
+    T data;
+public :
+    Box();
+    void set(T value);
+    T get();
+};
+template <class T>
+Box<T> :: Box() {} // <T> 안 붙이면 에러뜸.
+template<calss T>
+void Box<T> :: set(T value) { data = value;}
+tmeplate<class T>
+T Box<T> :: get() { return data;} // 템플릿 클래스에 있는 T
+
