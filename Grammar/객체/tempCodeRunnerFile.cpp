@@ -1,0 +1,1 @@
+cout << "Number of Cars is " << carArray[2].getNumberofCars() << endl;
