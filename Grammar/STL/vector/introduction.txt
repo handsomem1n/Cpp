@@ -1,0 +1,21 @@
+STL(Standard Template Library)는 크게 세 가지로 구성되어있다.
+1. container
+2. iterator
+3. algorithm
+
+container는 세 가지로 구성된다.
+    Sequence Containers
+        vector : 벡터처럼 입력된 순서대로 저장 - 뒤에서 자료 추가
+        list : 순서가 있는 리스트 - 중간에서 자료 추가 가능
+        deque : 양끝에서 입력과 출력이 가능 - 앞에서도 추가 가능
+    Associative Containers
+        set : 수학에서의 집합 구현
+        multiset : 다중 집합(중복 허용)
+        map : 사전과 같은 구조
+        multimap : 다중 맵(중복 허용)
+    Container Adaptors
+        stack : 후입선출
+        queue : 선입선출
+        priority_queue : 우선순위가 높은 원소가 먼저 출력
+
+
