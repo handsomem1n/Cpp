@@ -1,0 +1,17 @@
+From fa18583b12d0b3575e2ad485e5a3ec60c69f3d3e Mon Sep 17 00:00:00 2001
+From: handsomemin <128664961+handsomem1n@users.noreply.github.com>
+Date: Fri, 24 May 2024 11:25:37 +0900
+Subject: [PATCH] Create f
+
+---
+ hw/f | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hw/f
+
+diff --git a/hw/f b/hw/f
+new file mode 100644
+index 0000000..c6886be
+--- /dev/null
++++ b/hw/f
+@@ -0,0 +1 @@
++1f
